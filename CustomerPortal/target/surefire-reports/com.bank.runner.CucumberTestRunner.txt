@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.bank.runner.CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.135 s <<< FAILURE! - in com.bank.runner.CucumberTestRunner
+runScenario(com.bank.runner.CucumberTestRunner)  Time elapsed: 13.299 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[contains(@class, 'top-logo')]//imgg}
+Expected: visible
+Screenshot: file:/C:/Old_C/JavaProjects/BankTAF/BankTAF/CustomerPortal/build/reports/tests/1675198504158.0.png
+Page source: file:/C:/Old_C/JavaProjects/BankTAF/BankTAF/CustomerPortal/build/reports/tests/1675198504158.0.html
+Timeout: 2 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, 'top-logo')]//imgg"}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@class, 'top-logo')]//imgg"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'EPPLWROW02C2', ip: '192.168.0.122', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f8551917b7314d1a3018000b24358ae, findElement {using=xpath, value=//*[contains(@class, 'top-logo')]//imgg}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\TATSIA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60939/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f8551917b7314d1a3018000b24358ae
+
